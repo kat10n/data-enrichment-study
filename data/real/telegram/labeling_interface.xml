@@ -1,0 +1,21 @@
+<View>
+  <Header value="ID сообщения"/>
+  <Text name="sample_id_display" value="$sample_id"/>
+  <Text name="text" value="$text"/>
+  <Header value="Выберите ответ по смыслу всего сообщения"/>
+  <Choices name="label" toName="text" choice="single-radio" required="true">
+    <Choice value="not_spam"/>
+    <Choice value="spam"/>
+    <Choice value="needs_review"/>
+    <Choice value="excluded"/>
+  </Choices>
+  <Header value="Насколько вы уверены в ответе?"/>
+  <Choices name="confidence" toName="text" choice="single-radio" required="true">
+    <Choice value="high"/>
+    <Choice value="medium"/>
+    <Choice value="low"/>
+  </Choices>
+  <Header value="Активное время в секундах: только если измеряли; иначе оставьте пустым"/>
+  <Number name="active_seconds" toName="text" min="0" step="1"/>
+  <TextArea name="comment" toName="text" editable="true" rows="2" maxSubmissions="1" placeholder="Обязательно поясните спорный ответ, исключение или низкую уверенность"/>
+</View>

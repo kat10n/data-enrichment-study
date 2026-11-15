@@ -1,0 +1,10 @@
+{
+  "checked_on": "2026-11-15",
+  "base_rows": 21318,
+  "selection_rows": 204,
+  "main_rows": 200,
+  "normalization": "Unicode NFKC, casefold, whitespace collapse, strip",
+  "exact_normalized_matches": [],
+  "base_file_sha256": "d8928e89e7673b2f9cd072cd5175ab7a4a4c040fb825924847589aa6dab9bc33",
+  "near_duplicate_check": "not_performed_against_base; exact check does not exclude paraphrases or template variants"
+}

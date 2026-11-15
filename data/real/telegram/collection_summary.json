@@ -1,0 +1,59 @@
+{
+  "main_records": 200,
+  "proposed_not_spam": 100,
+  "proposed_spam": 100,
+  "deferred_records": 4,
+  "main_sources": {
+    "telegram_not_spam": 70,
+    "user_sms_spam": 53,
+    "translated_uci_not_spam": 30,
+    "translated_uci_spam": 47
+  },
+  "all_previous_127_records_preserved": true,
+  "previous_five_telegram_spam_removed": true,
+  "needs_review": [
+    "U006",
+    "U020",
+    "U049"
+  ],
+  "near_duplicate_deferred": {
+    "U041": "U026"
+  },
+  "exact_normalized_duplicates_in_main": 0,
+  "similar_template_groups_in_main": {
+    "SMS009_010": [
+      "U009",
+      "U010"
+    ]
+  },
+  "base_dataset_overlap_check": {
+    "checked_on": "2026-11-15",
+    "base_rows": 21318,
+    "selection_rows": 204,
+    "main_rows": 200,
+    "normalization": "Unicode NFKC, casefold, whitespace collapse, strip",
+    "exact_normalized_matches": [],
+    "base_file_sha256": "d8928e89e7673b2f9cd072cd5175ab7a4a4c040fb825924847589aa6dab9bc33",
+    "near_duplicate_check": "not_performed_against_base; exact check does not exclude paraphrases or template variants"
+  },
+  "annotations": "Preliminary candidates; no independent A/B annotation or final labels",
+  "kaggle_requested_url": "https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset",
+  "downloaded_from": "https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip",
+  "source_url": "https://archive.ics.uci.edu/dataset/228/sms+spam+collection",
+  "source_file": "SMSSpamCollection",
+  "source_row_index": "1-based physical line number; no header",
+  "downloaded_source_rows": 5574,
+  "source_label_counts": {
+    "ham": 4827,
+    "spam": 747
+  },
+  "source_sha256": "7d039a24a6083ed9ef0f806ebad56bbb976e3aeb8de05669173bfdc4996c239d",
+  "accessed_at": "2026-11-15",
+  "license": "CC BY 4.0 per UCI; Kaggle metadata says Unknown",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "citation": "Almeida, T. & Hidalgo, J. (2011). SMS Spam Collection. UCI Machine Learning Repository. https://doi.org/10.24432/C5CC84",
+  "selection": "Two seeded shuffled candidate pools, manual content selection, privacy screening; not a representative random sample.",
+  "translation": "AI English-to-Russian translation checked by assistant against source. Source text and source label retained separately. Not originally Russian messages.",
+  "assignment_evidence": "Shared chat: real-data enrichment, at least 50 objects annotated by two annotators, codebook. User reports translations were allowed; this is not independently verified teacher approval.",
+  "language_rules": "Russian source-text restriction found in local working codebook v0.1, not in the short assignment text in the shared chat."
+}
