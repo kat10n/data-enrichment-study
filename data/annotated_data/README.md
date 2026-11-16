@@ -1,13 +1,15 @@
 # Annotated data
 
-Original annotator exports for the new data collection. Preserve these files before resolving disagreements; they are not adjudicated ground truth.
+Annotator exports for the new data collection. Preserve the original exports before resolving disagreements; these files are not adjudicated ground truth.
 
 | File | Dataset | Annotator | Tasks | Status |
 | --- | --- | --- | ---: | --- |
 | `telegram/text_A.json` | Text messages | A | 200 | First independent annotation; not adjudicated |
-| `caltech/images_A.json` | Camera-trap images | A | 140 | First annotation export; issues pending review; not adjudicated |
+| `caltech/images_A.json` | Camera-trap images | A | 140 | Export with one explicit A-requested status correction; not adjudicated |
 
-Both files are unchanged full JSON exports from Label Studio. Each task contains one saved, non-cancelled annotation. Task data and `data.sample_id` values match the corresponding 200-text and 140-image annotation inputs.
+Both files use the full JSON export format from Label Studio. The text export is unchanged. The image export has one correction explicitly requested by annotator A on 2026-11-17: `IMG021` changed from `animal` to `empty`. It had no bounding box. No other task or annotation values were changed, including all timing values. The original image export is retained in Git history and as a separate local backup. The local Label Studio project was not modified by this file correction.
+
+Each task contains one saved, non-cancelled annotation. Task data and `data.sample_id` values match the corresponding 200-text and 140-image annotation inputs.
 
 Compare annotators by `data.sample_id`, not Label Studio's internal task IDs. Store adjudicated labels separately. Annotator B's exports have not been added yet; B should work from the neutral task inputs without consulting A's answers.
 
@@ -26,14 +28,13 @@ The optional custom `active_seconds` field is separate. Text A contains no entri
 
 ## Image export checks
 
-The export contains 74 frames marked `animal`, 66 marked `empty`, and 113 `animal` bounding boxes across 73 frames. All exported boxes have positive dimensions, valid original image dimensions, zero rotation, and coordinates within the image.
+After the user-requested correction, the export contains 73 frames marked `animal`, 67 marked `empty`, and 113 `animal` bounding boxes across 73 frames. All exported boxes have positive dimensions, valid original image dimensions, zero rotation, and coordinates within the image. Every frame marked `animal` has at least one box; every frame marked `empty` has none.
 
 Review is still needed:
 
-- `IMG021` is marked `animal` but has no bounding box.
 - Fourteen low-confidence tasks have no saved explanatory comment, although the codebook requests one: `IMG119`, `IMG108`, `IMG115`, `IMG117`, `IMG114`, `IMG030`, `IMG022`, `IMG127`, `IMG065`, `IMG121`, `IMG041`, `IMG031`, `IMG131`, `IMG099`.
 
-These findings have not been corrected automatically. The original answers and timing values remain unchanged. Details and per-task image durations are in [caltech/images_A_check.json](caltech/images_A_check.json). The checks assess export structure and timing availability, not the visual correctness of all labels.
+Missing comments have not been invented or filled in. Details, the explicit correction record, file hashes, and per-task image durations are in [caltech/images_A_check.json](caltech/images_A_check.json). The checks assess export structure and timing availability, not the visual correctness of all labels.
 
 ## Sources and file integrity
 
@@ -44,4 +45,4 @@ Export dates in Europe/Moscow: Text A — 2026-11-16; Images A — 2026-11-17. T
 
 SHA-256 of `telegram/text_A.json`: `874be3e871ceb8e1729650e0a2c697e21007bb52db4d9b099ea65d4ebf4c4bce`.
 
-SHA-256 of `caltech/images_A.json`: `f340ac68aa253505e8d3610d682e6f4ef736dfa0c3d2abd2448778d5b2ef7af1`.
+SHA-256 of the original image export before the correction: `f340ac68aa253505e8d3610d682e6f4ef736dfa0c3d2abd2448778d5b2ef7af1`. The hash of the corrected `caltech/images_A.json` is recorded in `caltech/images_A_check.json`.

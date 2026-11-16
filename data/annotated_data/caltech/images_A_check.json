@@ -1,16 +1,31 @@
 {
-  "checked_at": "2026-11-17T00:05:10+03:00",
+  "checked_at": "2026-11-17T00:07:08+03:00",
   "export_file": "images_A.json",
   "source_filename": "project-3-at-2026-11-16-21-00-b766351d.json",
-  "sha256": "f340ac68aa253505e8d3610d682e6f4ef736dfa0c3d2abd2448778d5b2ef7af1",
+  "sha256": "5626733fa4a311a83bd7f273847c69afb44b64d621cc1c39cea8b5380803f0f2",
+  "source_sha256": "f340ac68aa253505e8d3610d682e6f4ef736dfa0c3d2abd2448778d5b2ef7af1",
+  "user_requested_corrections": [
+    {
+      "sample_id": "IMG021",
+      "field": "annotations[0].result[from_name=frame_status].value.choices",
+      "before": [
+        "animal"
+      ],
+      "after": [
+        "empty"
+      ],
+      "basis": "Explicit instruction from annotator A on 2026-11-17; not inferred from the missing box."
+    }
+  ],
+  "correction_scope": "Only the IMG021 frame status was changed after export. Timing values and all other task/annotation values are unchanged. The local Label Studio project was not modified. Original export preserved separately.",
   "export_modified_at": "2026-11-17T00:00:32+03:00",
   "tasks": 140,
   "unique_sample_ids": 140,
   "matches_annotation_input": true,
   "one_saved_noncancelled_annotation_per_task": true,
   "frame_status_counts": {
-    "empty": 66,
-    "animal": 74
+    "empty": 67,
+    "animal": 73
   },
   "confidence_counts": {
     "medium": 83,
@@ -128,17 +143,12 @@
       "sample_id": "IMG099",
       "code": "missing_required_comment",
       "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
-    },
-    {
-      "sample_id": "IMG021",
-      "code": "animal_without_bbox",
-      "message": "Frame is marked animal but has no bounding box; annotator review is required."
     }
   ],
-  "issue_count": 15,
-  "status": "Raw annotator A export; issues pending review; not adjudicated ground truth.",
+  "issue_count": 14,
+  "status": "Annotator A export with one explicit user-requested status correction; other issues pending review; not adjudicated ground truth.",
   "annotation_provenance": "Some image interpretation and annotation questions were discussed with an AI assistant during annotation. This is not claimed to be entirely unaided annotation.",
-  "checks_scope": "Structural consistency and timing availability only. No automatic relabeling or visual correctness assessment of all frames.",
+  "checks_scope": "Structural consistency and timing availability only. No label inference or visual correctness assessment of all frames.",
   "per_task_image_timing": [
     {
       "sample_id": "IMG001",
