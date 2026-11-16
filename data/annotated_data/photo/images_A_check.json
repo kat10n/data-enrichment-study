@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T00:07:08+03:00",
+  "checked_at": "2026-11-17T00:10:31+03:00",
   "export_file": "images_A.json",
   "source_filename": "project-3-at-2026-11-16-21-00-b766351d.json",
   "sha256": "5626733fa4a311a83bd7f273847c69afb44b64d621cc1c39cea8b5380803f0f2",
@@ -62,6 +62,44 @@
     "minimum_seconds": 3.7,
     "maximum_seconds": 73.657,
     "interpretation": "Label Studio recorded duration; may include pauses. Not manually measured active time."
+  },
+  "received_annotator_B_exports": {
+    "photo/animals_B.json": {
+      "sha256": "322cdbd2ca836a51b7d607d6a63573e2fafbbcbce53ecfbe14a32503fa187334",
+      "tasks": 140,
+      "timing": {
+        "field": "annotations[].lead_time",
+        "unit": "seconds",
+        "annotation_count": 140,
+        "numeric_count": 140,
+        "missing_or_invalid_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "total_seconds": 3424.122,
+        "median_seconds": 15.313,
+        "minimum_seconds": 6.73,
+        "maximum_seconds": 179.881,
+        "interpretation": "Label Studio recorded duration; may include pauses. Not manually measured active time."
+      }
+    },
+    "telegram/text_B.json": {
+      "sha256": "b63e177dc6c000f9d77ca6f0ba9ce5419894403c88c788f9390e5de758de9843",
+      "tasks": 200,
+      "timing": {
+        "field": "annotations[].lead_time",
+        "unit": "seconds",
+        "annotation_count": 200,
+        "numeric_count": 200,
+        "missing_or_invalid_count": 0,
+        "zero_count": 0,
+        "negative_count": 0,
+        "total_seconds": 1325.305,
+        "median_seconds": 5.034,
+        "minimum_seconds": 3.518,
+        "maximum_seconds": 45.968,
+        "interpretation": "Label Studio recorded duration; may include pauses. Not manually measured active time."
+      }
+    }
   },
   "manual_active_seconds": {
     "saved_entries": [
