@@ -1,0 +1,704 @@
+{
+  "checked_at": "2026-11-17T00:05:10+03:00",
+  "export_file": "images_A.json",
+  "source_filename": "project-3-at-2026-11-16-21-00-b766351d.json",
+  "sha256": "f340ac68aa253505e8d3610d682e6f4ef736dfa0c3d2abd2448778d5b2ef7af1",
+  "export_modified_at": "2026-11-17T00:00:32+03:00",
+  "tasks": 140,
+  "unique_sample_ids": 140,
+  "matches_annotation_input": true,
+  "one_saved_noncancelled_annotation_per_task": true,
+  "frame_status_counts": {
+    "empty": 66,
+    "animal": 74
+  },
+  "confidence_counts": {
+    "medium": 83,
+    "high": 43,
+    "low": 14
+  },
+  "bounding_boxes": 113,
+  "tasks_with_bounding_boxes": 73,
+  "box_geometry_checks_passed": true,
+  "image_timing": {
+    "field": "annotations[].lead_time",
+    "unit": "seconds",
+    "annotation_count": 140,
+    "numeric_count": 140,
+    "missing_or_invalid_count": 0,
+    "zero_count": 0,
+    "negative_count": 0,
+    "total_seconds": 7871.323,
+    "median_seconds": 38.66,
+    "minimum_seconds": 7.022,
+    "maximum_seconds": 584.749,
+    "interpretation": "Label Studio recorded duration; may include pauses. Not manually measured active time."
+  },
+  "text_timing": {
+    "field": "annotations[].lead_time",
+    "unit": "seconds",
+    "annotation_count": 200,
+    "numeric_count": 200,
+    "missing_or_invalid_count": 0,
+    "zero_count": 0,
+    "negative_count": 0,
+    "total_seconds": 2123.301,
+    "median_seconds": 7.4815000000000005,
+    "minimum_seconds": 3.7,
+    "maximum_seconds": 73.657,
+    "interpretation": "Label Studio recorded duration; may include pauses. Not manually measured active time."
+  },
+  "manual_active_seconds": {
+    "saved_entries": [
+      {
+        "sample_id": "IMG035",
+        "value": 0,
+        "lead_time": 163.544
+      }
+    ],
+    "note": "The sole manual entry is zero. It is not used instead of the automatic lead_time field."
+  },
+  "issues": [
+    {
+      "sample_id": "IMG119",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG108",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG115",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG117",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG114",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG030",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG022",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG127",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG065",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG121",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG041",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG031",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG131",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG099",
+      "code": "missing_required_comment",
+      "message": "Codebook requests an explanation for low confidence or unresolved/excluded status; no saved comment was exported."
+    },
+    {
+      "sample_id": "IMG021",
+      "code": "animal_without_bbox",
+      "message": "Frame is marked animal but has no bounding box; annotator review is required."
+    }
+  ],
+  "issue_count": 15,
+  "status": "Raw annotator A export; issues pending review; not adjudicated ground truth.",
+  "annotation_provenance": "Some image interpretation and annotation questions were discussed with an AI assistant during annotation. This is not claimed to be entirely unaided annotation.",
+  "checks_scope": "Structural consistency and timing availability only. No automatic relabeling or visual correctness assessment of all frames.",
+  "per_task_image_timing": [
+    {
+      "sample_id": "IMG001",
+      "lead_time_seconds": 40.919
+    },
+    {
+      "sample_id": "IMG002",
+      "lead_time_seconds": 21.464
+    },
+    {
+      "sample_id": "IMG003",
+      "lead_time_seconds": 41.763
+    },
+    {
+      "sample_id": "IMG004",
+      "lead_time_seconds": 29.617
+    },
+    {
+      "sample_id": "IMG005",
+      "lead_time_seconds": 42.641
+    },
+    {
+      "sample_id": "IMG006",
+      "lead_time_seconds": 18.583
+    },
+    {
+      "sample_id": "IMG007",
+      "lead_time_seconds": 27.693
+    },
+    {
+      "sample_id": "IMG008",
+      "lead_time_seconds": 37.633
+    },
+    {
+      "sample_id": "IMG009",
+      "lead_time_seconds": 59.366
+    },
+    {
+      "sample_id": "IMG010",
+      "lead_time_seconds": 47.935
+    },
+    {
+      "sample_id": "IMG011",
+      "lead_time_seconds": 26.315
+    },
+    {
+      "sample_id": "IMG012",
+      "lead_time_seconds": 27.219
+    },
+    {
+      "sample_id": "IMG013",
+      "lead_time_seconds": 56.809
+    },
+    {
+      "sample_id": "IMG014",
+      "lead_time_seconds": 61.3
+    },
+    {
+      "sample_id": "IMG015",
+      "lead_time_seconds": 33.811
+    },
+    {
+      "sample_id": "IMG016",
+      "lead_time_seconds": 64.047
+    },
+    {
+      "sample_id": "IMG017",
+      "lead_time_seconds": 55.979
+    },
+    {
+      "sample_id": "IMG018",
+      "lead_time_seconds": 44.431
+    },
+    {
+      "sample_id": "IMG019",
+      "lead_time_seconds": 44.256
+    },
+    {
+      "sample_id": "IMG020",
+      "lead_time_seconds": 22.765
+    },
+    {
+      "sample_id": "IMG021",
+      "lead_time_seconds": 17.563
+    },
+    {
+      "sample_id": "IMG022",
+      "lead_time_seconds": 71.851
+    },
+    {
+      "sample_id": "IMG023",
+      "lead_time_seconds": 51.094
+    },
+    {
+      "sample_id": "IMG024",
+      "lead_time_seconds": 71.466
+    },
+    {
+      "sample_id": "IMG025",
+      "lead_time_seconds": 15.626
+    },
+    {
+      "sample_id": "IMG026",
+      "lead_time_seconds": 47.063
+    },
+    {
+      "sample_id": "IMG027",
+      "lead_time_seconds": 118.39
+    },
+    {
+      "sample_id": "IMG028",
+      "lead_time_seconds": 34.564
+    },
+    {
+      "sample_id": "IMG029",
+      "lead_time_seconds": 107.019
+    },
+    {
+      "sample_id": "IMG030",
+      "lead_time_seconds": 366.81
+    },
+    {
+      "sample_id": "IMG031",
+      "lead_time_seconds": 26.716
+    },
+    {
+      "sample_id": "IMG032",
+      "lead_time_seconds": 38.763
+    },
+    {
+      "sample_id": "IMG033",
+      "lead_time_seconds": 163.133
+    },
+    {
+      "sample_id": "IMG034",
+      "lead_time_seconds": 27.715
+    },
+    {
+      "sample_id": "IMG035",
+      "lead_time_seconds": 163.544
+    },
+    {
+      "sample_id": "IMG036",
+      "lead_time_seconds": 38.557
+    },
+    {
+      "sample_id": "IMG037",
+      "lead_time_seconds": 104.612
+    },
+    {
+      "sample_id": "IMG038",
+      "lead_time_seconds": 65.533
+    },
+    {
+      "sample_id": "IMG039",
+      "lead_time_seconds": 10.089
+    },
+    {
+      "sample_id": "IMG040",
+      "lead_time_seconds": 30.326
+    },
+    {
+      "sample_id": "IMG041",
+      "lead_time_seconds": 22.664
+    },
+    {
+      "sample_id": "IMG042",
+      "lead_time_seconds": 11.02
+    },
+    {
+      "sample_id": "IMG043",
+      "lead_time_seconds": 33.369
+    },
+    {
+      "sample_id": "IMG044",
+      "lead_time_seconds": 18.119
+    },
+    {
+      "sample_id": "IMG045",
+      "lead_time_seconds": 43.808
+    },
+    {
+      "sample_id": "IMG046",
+      "lead_time_seconds": 46.188
+    },
+    {
+      "sample_id": "IMG047",
+      "lead_time_seconds": 137.309
+    },
+    {
+      "sample_id": "IMG048",
+      "lead_time_seconds": 10.932
+    },
+    {
+      "sample_id": "IMG049",
+      "lead_time_seconds": 21.268
+    },
+    {
+      "sample_id": "IMG050",
+      "lead_time_seconds": 25.442
+    },
+    {
+      "sample_id": "IMG051",
+      "lead_time_seconds": 47.797
+    },
+    {
+      "sample_id": "IMG052",
+      "lead_time_seconds": 52.303
+    },
+    {
+      "sample_id": "IMG053",
+      "lead_time_seconds": 15.3
+    },
+    {
+      "sample_id": "IMG054",
+      "lead_time_seconds": 60.076
+    },
+    {
+      "sample_id": "IMG055",
+      "lead_time_seconds": 11.177
+    },
+    {
+      "sample_id": "IMG056",
+      "lead_time_seconds": 47.634
+    },
+    {
+      "sample_id": "IMG057",
+      "lead_time_seconds": 56.409
+    },
+    {
+      "sample_id": "IMG058",
+      "lead_time_seconds": 20.442
+    },
+    {
+      "sample_id": "IMG059",
+      "lead_time_seconds": 47.215
+    },
+    {
+      "sample_id": "IMG060",
+      "lead_time_seconds": 44.22
+    },
+    {
+      "sample_id": "IMG061",
+      "lead_time_seconds": 19.196
+    },
+    {
+      "sample_id": "IMG062",
+      "lead_time_seconds": 12.336
+    },
+    {
+      "sample_id": "IMG063",
+      "lead_time_seconds": 33.459
+    },
+    {
+      "sample_id": "IMG064",
+      "lead_time_seconds": 12.295
+    },
+    {
+      "sample_id": "IMG065",
+      "lead_time_seconds": 22.788
+    },
+    {
+      "sample_id": "IMG066",
+      "lead_time_seconds": 28.633
+    },
+    {
+      "sample_id": "IMG067",
+      "lead_time_seconds": 56.422
+    },
+    {
+      "sample_id": "IMG068",
+      "lead_time_seconds": 51.755
+    },
+    {
+      "sample_id": "IMG069",
+      "lead_time_seconds": 85.81
+    },
+    {
+      "sample_id": "IMG070",
+      "lead_time_seconds": 36.397
+    },
+    {
+      "sample_id": "IMG071",
+      "lead_time_seconds": 49.548
+    },
+    {
+      "sample_id": "IMG072",
+      "lead_time_seconds": 265.284
+    },
+    {
+      "sample_id": "IMG073",
+      "lead_time_seconds": 53.627
+    },
+    {
+      "sample_id": "IMG074",
+      "lead_time_seconds": 48.483
+    },
+    {
+      "sample_id": "IMG075",
+      "lead_time_seconds": 88.105
+    },
+    {
+      "sample_id": "IMG076",
+      "lead_time_seconds": 42.78
+    },
+    {
+      "sample_id": "IMG077",
+      "lead_time_seconds": 57.258
+    },
+    {
+      "sample_id": "IMG078",
+      "lead_time_seconds": 20.941
+    },
+    {
+      "sample_id": "IMG079",
+      "lead_time_seconds": 71.934
+    },
+    {
+      "sample_id": "IMG080",
+      "lead_time_seconds": 132.646
+    },
+    {
+      "sample_id": "IMG081",
+      "lead_time_seconds": 49.821
+    },
+    {
+      "sample_id": "IMG082",
+      "lead_time_seconds": 65.175
+    },
+    {
+      "sample_id": "IMG083",
+      "lead_time_seconds": 58.956
+    },
+    {
+      "sample_id": "IMG084",
+      "lead_time_seconds": 38.206
+    },
+    {
+      "sample_id": "IMG085",
+      "lead_time_seconds": 97.535
+    },
+    {
+      "sample_id": "IMG086",
+      "lead_time_seconds": 62.534
+    },
+    {
+      "sample_id": "IMG087",
+      "lead_time_seconds": 39.803
+    },
+    {
+      "sample_id": "IMG088",
+      "lead_time_seconds": 40.926
+    },
+    {
+      "sample_id": "IMG089",
+      "lead_time_seconds": 17.921
+    },
+    {
+      "sample_id": "IMG090",
+      "lead_time_seconds": 30.663
+    },
+    {
+      "sample_id": "IMG091",
+      "lead_time_seconds": 47.949
+    },
+    {
+      "sample_id": "IMG092",
+      "lead_time_seconds": 65.125
+    },
+    {
+      "sample_id": "IMG093",
+      "lead_time_seconds": 29.25
+    },
+    {
+      "sample_id": "IMG094",
+      "lead_time_seconds": 50.697
+    },
+    {
+      "sample_id": "IMG095",
+      "lead_time_seconds": 93.719
+    },
+    {
+      "sample_id": "IMG096",
+      "lead_time_seconds": 453.292
+    },
+    {
+      "sample_id": "IMG097",
+      "lead_time_seconds": 93.766
+    },
+    {
+      "sample_id": "IMG098",
+      "lead_time_seconds": 11.834
+    },
+    {
+      "sample_id": "IMG099",
+      "lead_time_seconds": 117.371
+    },
+    {
+      "sample_id": "IMG100",
+      "lead_time_seconds": 127.804
+    },
+    {
+      "sample_id": "IMG101",
+      "lead_time_seconds": 23.814
+    },
+    {
+      "sample_id": "IMG102",
+      "lead_time_seconds": 33.461
+    },
+    {
+      "sample_id": "IMG103",
+      "lead_time_seconds": 18.981
+    },
+    {
+      "sample_id": "IMG104",
+      "lead_time_seconds": 32.598
+    },
+    {
+      "sample_id": "IMG105",
+      "lead_time_seconds": 62.301
+    },
+    {
+      "sample_id": "IMG106",
+      "lead_time_seconds": 40.016
+    },
+    {
+      "sample_id": "IMG107",
+      "lead_time_seconds": 22.745
+    },
+    {
+      "sample_id": "IMG108",
+      "lead_time_seconds": 24.833
+    },
+    {
+      "sample_id": "IMG109",
+      "lead_time_seconds": 35.19
+    },
+    {
+      "sample_id": "IMG110",
+      "lead_time_seconds": 13.847
+    },
+    {
+      "sample_id": "IMG111",
+      "lead_time_seconds": 20.591
+    },
+    {
+      "sample_id": "IMG112",
+      "lead_time_seconds": 33.95
+    },
+    {
+      "sample_id": "IMG113",
+      "lead_time_seconds": 35.085
+    },
+    {
+      "sample_id": "IMG114",
+      "lead_time_seconds": 15.677
+    },
+    {
+      "sample_id": "IMG115",
+      "lead_time_seconds": 96.188
+    },
+    {
+      "sample_id": "IMG116",
+      "lead_time_seconds": 8.788
+    },
+    {
+      "sample_id": "IMG117",
+      "lead_time_seconds": 233.324
+    },
+    {
+      "sample_id": "IMG118",
+      "lead_time_seconds": 7.022
+    },
+    {
+      "sample_id": "IMG119",
+      "lead_time_seconds": 22.54
+    },
+    {
+      "sample_id": "IMG120",
+      "lead_time_seconds": 60.919
+    },
+    {
+      "sample_id": "IMG121",
+      "lead_time_seconds": 14.334
+    },
+    {
+      "sample_id": "IMG122",
+      "lead_time_seconds": 19.204
+    },
+    {
+      "sample_id": "IMG123",
+      "lead_time_seconds": 103.595
+    },
+    {
+      "sample_id": "IMG124",
+      "lead_time_seconds": 25.729
+    },
+    {
+      "sample_id": "IMG125",
+      "lead_time_seconds": 14.386
+    },
+    {
+      "sample_id": "IMG126",
+      "lead_time_seconds": 8.963
+    },
+    {
+      "sample_id": "IMG127",
+      "lead_time_seconds": 17.196
+    },
+    {
+      "sample_id": "IMG128",
+      "lead_time_seconds": 48.702
+    },
+    {
+      "sample_id": "IMG129",
+      "lead_time_seconds": 584.749
+    },
+    {
+      "sample_id": "IMG130",
+      "lead_time_seconds": 13.636
+    },
+    {
+      "sample_id": "IMG131",
+      "lead_time_seconds": 16.209
+    },
+    {
+      "sample_id": "IMG132",
+      "lead_time_seconds": 19.66
+    },
+    {
+      "sample_id": "IMG133",
+      "lead_time_seconds": 52.345
+    },
+    {
+      "sample_id": "IMG134",
+      "lead_time_seconds": 12.492
+    },
+    {
+      "sample_id": "IMG135",
+      "lead_time_seconds": 13.022
+    },
+    {
+      "sample_id": "IMG136",
+      "lead_time_seconds": 60.706
+    },
+    {
+      "sample_id": "IMG137",
+      "lead_time_seconds": 12.016
+    },
+    {
+      "sample_id": "IMG138",
+      "lead_time_seconds": 18.062
+    },
+    {
+      "sample_id": "IMG139",
+      "lead_time_seconds": 25.416
+    },
+    {
+      "sample_id": "IMG140",
+      "lead_time_seconds": 19.315
+    }
+  ]
+}
