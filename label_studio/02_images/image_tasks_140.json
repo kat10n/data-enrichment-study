@@ -1,0 +1,842 @@
+[
+  {
+    "data": {
+      "sample_id": "IMG101",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-14a5d0d128d1.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG032",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-3062d814046d.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG096",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p11.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG130",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-a9bb75a53366.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG123",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-801f76a17860.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG102",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-1a43a8b99ae6.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG104",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-20c8f8a26651.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG059",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-d4e43ef1c521.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG105",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-2a98f30d6da3.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG080",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a12.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG054",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-bf50f0f95be1.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG094",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p09.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG089",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p04.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG107",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-3266818311a4.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG036",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-48d577ea79dd.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG063",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-ecc63085e1e5.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG026",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-2177de3dfec2.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG124",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-881ff9675549.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG119",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-66f8dcd396e7.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG120",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-72c38054b343.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG028",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-21af9af51c03.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG083",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a15.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG052",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-bb15fcbaa865.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG085",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p00.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG074",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a06.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG139",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-f99543381ac8.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG009",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-7fd052bd76eb.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG108",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-33bed7abbe0e.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG129",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-a95ad9d9d83a.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG073",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a05.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG115",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-6278df0212c5.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG093",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p08.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG017",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-b4c79208b569.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG086",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p01.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG014",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-a903182ff468.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG010",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-98cb1ca82c66.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG117",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-65838d91b705.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG029",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-2459a5863215.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG136",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-d686bc300fbc.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG004",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-6aa7c5129d0d.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG095",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p10.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG133",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-b9cf778c65c9.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG132",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-b4765b73e2a6.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG068",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-ffe99c49b225.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG043",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-782d7b1dac05.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG103",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-1d459942cf6e.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG037",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-53cc0c346d5a.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG114",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-5d49dcf1a4e8.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG019",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-0861a7916643.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG113",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-589c944e2117.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG056",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-cb1da9c7ca5e.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG030",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-24fc39f529f7.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG088",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p03.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG075",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a07.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG008",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-7f80e6caa069.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG024",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-1f2fb7653a6e.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG071",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a03.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG022",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-14db80bd2b00.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG127",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-971d27ea460f.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG061",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-e26e1114e687.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG035",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-3caf2bc01176.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG051",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-a80a29451593.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG065",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-f66e39c0d04f.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG121",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-76c50fcf3afc.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG041",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-69d63b5c633b.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG067",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-fd9434f2640b.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG020",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-0b2804c9de85.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG038",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-55d3ae32f0c3.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG076",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a08.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG138",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-ee63fc35bd02.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG034",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-37c1d8bda4bc.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG003",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-420cb7cc928d.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG001",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-123578699359.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG084",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-d01.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG033",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-3276a49664f3.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG040",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-620712d6e534.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG140",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-fa74e4d78964.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG015",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-ad361d0f210a.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG031",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-298454143928.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG016",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-b42debe01f11.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG069",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a01.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG045",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-86caf1456f3a.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG058",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-cff1ac590ebe.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG087",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p02.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG057",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-cfb96ed2ce17.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG090",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p05.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG082",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a14.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG053",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-bbe7061b2b27.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG005",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-6dfb97632210.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG013",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-a610c1a64952.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG027",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-21a059f2b628.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG131",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-b056261f4770.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG097",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-04c9014c3812.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG049",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-a3af27d49625.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG135",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-c9557da614e2.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG077",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a09.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG137",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-e8939a68619c.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG098",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-073ff564966d.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG128",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-a09ddf984a14.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG072",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a04.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG109",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-40ff685f49ea.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG002",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-36684976be1f.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG055",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-c00ded38dbec.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG079",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a11.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG006",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-7cbd0054c419.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG126",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-8d5bc6234609.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG023",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-16ad1e9c447f.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG081",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a13.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG111",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-4dd3b12081a6.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG060",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-d6525b71534f.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG047",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-9f2fb58c8741.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG018",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-dd3fac072357.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG099",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-0d29ba3be9c7.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG110",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-4b608642e756.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG134",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-c88b813f6b3f.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG044",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-79cbb777b6c3.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG125",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-8d5444c89684.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG092",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p07.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG100",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-10e543f4b17e.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG106",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-31c1cb2eee3c.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG066",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-f8e9cf22b649.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG112",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-4ebfc80642a5.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG021",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-0eef563314f0.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG064",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-ef61797c4be3.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG118",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-66b4fbdbb7c1.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG070",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a02.png"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG011",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-9dec6a96c55e.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG039",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-6099faaade3e.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG048",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-a29d6d8eb9b8.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG062",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-e513b07a78be.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG012",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-9ec5adcb162f.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG025",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-1ff76b319013.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG050",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-a46767b8654d.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG116",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-635fe73d67d9.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG046",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-950ebdca3d99.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG091",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-p06.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG042",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/kruger-6eb7294893a5.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG122",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/wellington-7f5299280d72.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG007",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/ena24-7f5d3582377f.jpg"
+    }
+  },
+  {
+    "data": {
+      "sample_id": "IMG078",
+      "image": "https://raw.githubusercontent.com/kat10n/data-enrichment-study/cf592dcdca8a12bb998a146df3f9034f4ab7eed9/data/real/caltech/images/manual-a10.png"
+    }
+  }
+]

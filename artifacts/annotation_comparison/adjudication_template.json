@@ -1,0 +1,901 @@
+{
+  "instructions": "After joint review, record actual decisions and reasons. final_status: accepted/excluded/unresolved. For accepted text final_label: not_spam/spam; for images: animal/empty. Image final_boxes use percent coordinates as in the export, with original_width and original_height. null means not decided. Do not overwrite original A/B exports.",
+  "items": [
+    {
+      "sample_id": "TG071",
+      "dataset": "text",
+      "A_status": "not_spam",
+      "B_status": "spam",
+      "review_reasons": [
+        "label_disagreement"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "not_spam",
+      "final_boxes": null,
+      "resolution_reason": "Реплика об учебном предмете без рекламы или призыва.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG027",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "unmatched_boxes",
+        "matched_iou_below_075"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 77.01863354037268,
+          "y": 15.6355455568054,
+          "width": 12.128918667775224,
+          "height": 11.81102362204724,
+          "id": "jrSicUZDhK",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 44.96363420410958,
+          "y": 15.6355455568054,
+          "width": 13.68835106791775,
+          "height": 11.811023622047244,
+          "id": "ee-__FIv2a",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 39.93879647031699,
+          "y": 23.059617547806525,
+          "width": 8.230337667418908,
+          "height": 7.874015748031496,
+          "id": "6HfvQC8r9D",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 50.24837733792591,
+          "y": 21.25984251968504,
+          "width": 7.71052686737139,
+          "height": 6.636670416197942,
+          "id": "6EJPexdW0K",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 46.52306660425211,
+          "y": 22.947131608548936,
+          "width": 8.923418734148918,
+          "height": 8.211473565804276,
+          "id": "fR14lqxiLk",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG029",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "unmatched_boxes"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 34.195943097258166,
+          "y": 46.48805285536975,
+          "width": 2.2638429228150017,
+          "height": 3.0940467790595463,
+          "id": "CaPtekx3cs",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 27.821438025121186,
+          "y": 40.37731046672713,
+          "width": 12.570285702999083,
+          "height": 34.96272860337293,
+          "id": "zfkMOIVRJC",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        }
+      ],
+      "resolution_reason": "Принята разметка B по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG031",
+      "dataset": "images",
+      "A_status": "empty",
+      "B_status": "needs_review",
+      "review_reasons": [
+        "unresolved_status"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "empty",
+      "final_boxes": [],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG033",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "unmatched_boxes"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 42.51817309011109,
+          "y": 35.01577287066246,
+          "width": 20.773164566882848,
+          "height": 30.914826498422713,
+          "id": "-t97-xqz61",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 79.6912044203225,
+          "y": 51.89274447949527,
+          "width": 18.34355467601935,
+          "height": 33.43848580441641,
+          "id": "Zwxw8be2Gi",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 86.85855359836981,
+          "y": 74.44794952681389,
+          "width": 12.998412916119662,
+          "height": 23.186119873817034,
+          "id": "zoGMVmieg-",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 0.0,
+          "y": 67.35015772870663,
+          "width": 2.4296098908634907,
+          "height": 24.290220820189262,
+          "id": "P1LS18X5kf",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        }
+      ],
+      "resolution_reason": "Принята разметка B по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG043",
+      "dataset": "images",
+      "A_status": "empty",
+      "B_status": "needs_review",
+      "review_reasons": [
+        "unresolved_status"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "empty",
+      "final_boxes": [],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG054",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "unmatched_boxes",
+        "matched_iou_below_075"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 34.3789799557184,
+          "y": 29.33753943217666,
+          "width": 8.01771263984952,
+          "height": 19.71608832807571,
+          "id": "PIihA-m5Ks",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 22.466730843182418,
+          "y": 37.21584962580218,
+          "width": 4.599787533037354,
+          "height": 11.599104326344175,
+          "id": "anTriLOdHJ",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 13.343185323108342,
+          "y": 36.08061813854296,
+          "width": 2.737063656022224,
+          "height": 8.588272990569735,
+          "id": "wHa89zHIut",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        },
+        {
+          "x": 12.50686031710155,
+          "y": 40.226680961576626,
+          "width": 1.862723877015128,
+          "height": 3.751199697030465,
+          "id": "rEJTl67A02",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        }
+      ],
+      "resolution_reason": "Принята разметка B по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG064",
+      "dataset": "images",
+      "A_status": "empty",
+      "B_status": "needs_review",
+      "review_reasons": [
+        "unresolved_status",
+        "unmatched_boxes"
+      ],
+      "review_priority": "first",
+      "final_status": "excluded",
+      "final_label": null,
+      "final_boxes": null,
+      "resolution_reason": "Спорный кадр. Наличие животного нельзя подтвердить достаточно уверенно.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG079",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "unmatched_boxes",
+        "matched_iou_below_075"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 14.432176656151421,
+          "y": 56.94006309148265,
+          "width": 13.485804416403786,
+          "height": 13.24921135646688,
+          "id": "umLkL9QkEu",
+          "flags": [],
+          "original_width": 1200,
+          "original_height": 900
+        },
+        {
+          "x": 28.391167192429023,
+          "y": 61.67192429022082,
+          "width": 8.872239747634069,
+          "height": 4.889589905362776,
+          "id": "0tEuBMk5fE",
+          "flags": [],
+          "original_width": 1200,
+          "original_height": 900
+        },
+        {
+          "x": 28.74605678233439,
+          "y": 64.66876971608832,
+          "width": 13.36750788643533,
+          "height": 9.14826498422714,
+          "id": "bND5F44eda",
+          "flags": [],
+          "original_width": 1200,
+          "original_height": 900
+        },
+        {
+          "x": 37.381703470031546,
+          "y": 65.93059936908517,
+          "width": 8.99053627760253,
+          "height": 8.044164037854884,
+          "id": "oSfUHaXNd0",
+          "flags": [],
+          "original_width": 1200,
+          "original_height": 900
+        },
+        {
+          "x": 7.334384858044165,
+          "y": 61.3564668769716,
+          "width": 8.044164037854891,
+          "height": 6.309148264984238,
+          "id": "ATxm-Ihbau",
+          "flags": [],
+          "original_width": 1200,
+          "original_height": 900
+        }
+      ],
+      "resolution_reason": "Принята разметка B по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG086",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "needs_review",
+      "review_reasons": [
+        "unresolved_status",
+        "matched_iou_below_075"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 46.65354330708663,
+          "y": 43.982002249718796,
+          "width": 19.656917885264313,
+          "height": 44.54443194600665,
+          "id": "qjPNGqKakB",
+          "flags": [],
+          "original_width": 736,
+          "original_height": 552
+        },
+        {
+          "x": 83.23991717997164,
+          "y": 26.683179026332375,
+          "width": 5.220621983412844,
+          "height": 6.905584634144008,
+          "id": "lwb4Ata03Q",
+          "flags": [],
+          "original_width": 736,
+          "original_height": 552
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG099",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "empty",
+      "review_reasons": [
+        "label_disagreement",
+        "unmatched_boxes"
+      ],
+      "review_priority": "first",
+      "final_status": "excluded",
+      "final_label": null,
+      "final_boxes": null,
+      "resolution_reason": "Спорный кадр. Наличие животного нельзя подтвердить достаточно уверенно.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG116",
+      "dataset": "images",
+      "A_status": "empty",
+      "B_status": "needs_review",
+      "review_reasons": [
+        "unresolved_status"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "empty",
+      "final_boxes": [],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG117",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "empty",
+      "review_reasons": [
+        "label_disagreement",
+        "unmatched_boxes"
+      ],
+      "review_priority": "first",
+      "final_status": "excluded",
+      "final_label": null,
+      "final_boxes": null,
+      "resolution_reason": "Спорный кадр. Наличие животного нельзя подтвердить достаточно уверенно.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG123",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "empty",
+      "review_reasons": [
+        "label_disagreement",
+        "unmatched_boxes"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 84.3644544431946,
+          "y": 42.857142857142854,
+          "width": 7.339707536557938,
+          "height": 6.2992125984252,
+          "id": "sNjHv7a1Jt",
+          "flags": [],
+          "original_width": 3264,
+          "original_height": 2448
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG129",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "empty",
+      "review_reasons": [
+        "label_disagreement",
+        "unmatched_boxes"
+      ],
+      "review_priority": "first",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 75.75928008998875,
+          "y": 33.970753655793025,
+          "width": 20.500562429696302,
+          "height": 12.26096737907762,
+          "id": "5jizuiCI8k",
+          "flags": [],
+          "original_width": 3264,
+          "original_height": 2448
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG016",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "matched_iou_below_075"
+      ],
+      "review_priority": "followup",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 32.98650168728909,
+          "y": 53.88076490438694,
+          "width": 2.1934758155230583,
+          "height": 6.074240719910023,
+          "id": "OdWo9mA5dk",
+          "flags": [],
+          "original_width": 2048,
+          "original_height": 1536
+        },
+        {
+          "x": 29.10573678290214,
+          "y": 54.89313835770528,
+          "width": 4.218222722159723,
+          "height": 6.186726659167611,
+          "id": "fp18E3FXxI",
+          "flags": [],
+          "original_width": 2048,
+          "original_height": 1536
+        },
+        {
+          "x": 13.835770528683916,
+          "y": 14.848143982002249,
+          "width": 18.30708661417324,
+          "height": 49.83127109111359,
+          "id": "85Ghq3vgn-",
+          "flags": [],
+          "original_width": 2048,
+          "original_height": 1536
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG035",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "matched_iou_below_075"
+      ],
+      "review_priority": "followup",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 12.04228353443394,
+          "y": 39.48256467941505,
+          "width": 17.413661801591527,
+          "height": 23.8470191226096,
+          "id": "A0Rze5PkXC",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG052",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "matched_iou_below_075"
+      ],
+      "review_priority": "followup",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 58.91803985343965,
+          "y": 41.32492113564668,
+          "width": 6.438466210788249,
+          "height": 15.615141955835966,
+          "id": "9asIN30pzM",
+          "flags": [],
+          "original_width": 5152,
+          "original_height": 3968
+        }
+      ],
+      "resolution_reason": "Принята разметка B по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG069",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "matched_iou_below_075"
+      ],
+      "review_priority": "followup",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 5.924259467566554,
+          "y": 54.105736782902135,
+          "width": 23.172103487064117,
+          "height": 21.48481439820022,
+          "id": "rfcuzWsylB",
+          "flags": [],
+          "original_width": 600,
+          "original_height": 400
+        },
+        {
+          "x": 29.021372328458945,
+          "y": 52.75590551181102,
+          "width": 16.422947131608545,
+          "height": 15.298087739032624,
+          "id": "xqpU7rQaOd",
+          "flags": [],
+          "original_width": 600,
+          "original_height": 400
+        },
+        {
+          "x": 48.74390701162355,
+          "y": 55.455568053993254,
+          "width": 26.621672290963616,
+          "height": 33.18335208098986,
+          "id": "Q8gWIaNvhs",
+          "flags": [],
+          "original_width": 600,
+          "original_height": 400
+        },
+        {
+          "x": 33.74578177727787,
+          "y": 60.17997750281214,
+          "width": 16.7229096362954,
+          "height": 39.48256467941506,
+          "id": "1Voml6XlRe",
+          "flags": [],
+          "original_width": 600,
+          "original_height": 400
+        },
+        {
+          "x": 72.36595425571802,
+          "y": 43.7570303712036,
+          "width": 18.447694038245213,
+          "height": 15.18560179977501,
+          "id": "bq1Wo3xUDF",
+          "flags": [],
+          "original_width": 600,
+          "original_height": 400
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG072",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "matched_iou_below_075"
+      ],
+      "review_priority": "followup",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 9.894497784933282,
+          "y": 42.51968503937004,
+          "width": 15.846656608682212,
+          "height": 22.60967379077615,
+          "id": "gfrcevdgJN",
+          "flags": [],
+          "original_width": 1055,
+          "original_height": 725
+        },
+        {
+          "x": 47.92647364577057,
+          "y": 36.67041619797524,
+          "width": 3.4012336135708248,
+          "height": 12.935883014623176,
+          "id": "98LtqFQJvV",
+          "flags": [],
+          "original_width": 1055,
+          "original_height": 725
+        },
+        {
+          "x": 51.636910315120566,
+          "y": 36.557930258717654,
+          "width": 4.3288427809083005,
+          "height": 13.385826771653534,
+          "id": "hmEfizAmhO",
+          "flags": [],
+          "original_width": 1055,
+          "original_height": 725
+        },
+        {
+          "x": 71.11670282920795,
+          "y": 37.007874015747994,
+          "width": 6.261361879528078,
+          "height": 13.835770528683897,
+          "id": "fIYNSVFQ4a",
+          "flags": [],
+          "original_width": 1055,
+          "original_height": 725
+        },
+        {
+          "x": 65.08724324151424,
+          "y": 33.74578177727783,
+          "width": 5.797557295859365,
+          "height": 16.535433070866137,
+          "id": "t4y50C97vz",
+          "flags": [],
+          "original_width": 1055,
+          "original_height": 725
+        },
+        {
+          "x": 56.274956151808,
+          "y": 36.55793025871767,
+          "width": 4.48344430879794,
+          "height": 15.073115860517444,
+          "id": "C1lGOs8zeF",
+          "flags": [],
+          "original_width": 1055,
+          "original_height": 725
+        },
+        {
+          "x": 60.062693585102814,
+          "y": 34.645669291338585,
+          "width": 5.179151184301027,
+          "height": 15.635545556805397,
+          "id": "JvMwd-_YUi",
+          "flags": [],
+          "original_width": 1055,
+          "original_height": 725
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG084",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "matched_iou_below_075"
+      ],
+      "review_priority": "followup",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 62.29050279329611,
+          "y": 71.72360106236835,
+          "width": 4.3761638733705865,
+          "height": 9.260107254429073,
+          "id": "DNQS8ritSO",
+          "flags": [],
+          "original_width": 650,
+          "original_height": 366
+        },
+        {
+          "x": 83.24022346368719,
+          "y": 67.42426555138341,
+          "width": 14.152700186219732,
+          "height": 32.575734448616586,
+          "id": "81CZjfImaG",
+          "flags": [],
+          "original_width": 650,
+          "original_height": 366
+        }
+      ],
+      "resolution_reason": "Принята разметка B по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG088",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "matched_iou_below_075"
+      ],
+      "review_priority": "followup",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 21.884858044164037,
+          "y": 63.722397476340696,
+          "width": 4.850157728706627,
+          "height": 4.731861198738166,
+          "id": "r5cd3wzDln",
+          "flags": [],
+          "original_width": 680,
+          "original_height": 510
+        },
+        {
+          "x": 28.62776025236593,
+          "y": 56.782334384858046,
+          "width": 9.345425867507885,
+          "height": 11.04100946372239,
+          "id": "UNrwvYd4Bt",
+          "flags": [],
+          "original_width": 680,
+          "original_height": 510
+        },
+        {
+          "x": 72.87066246056783,
+          "y": 66.24605678233438,
+          "width": 27.12933753943217,
+          "height": 31.230283911671933,
+          "id": "ZHmdM3YQLz",
+          "flags": [],
+          "original_width": 680,
+          "original_height": 510
+        }
+      ],
+      "resolution_reason": "Принята разметка B по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    },
+    {
+      "sample_id": "IMG091",
+      "dataset": "images",
+      "A_status": "animal",
+      "B_status": "animal",
+      "review_reasons": [
+        "matched_iou_below_075"
+      ],
+      "review_priority": "followup",
+      "final_status": "accepted",
+      "final_label": "animal",
+      "final_boxes": [
+        {
+          "x": 61.20061522921906,
+          "y": 16.985376827896616,
+          "width": 8.177957347168743,
+          "height": 23.734533183352347,
+          "id": "acAK1cfGNW",
+          "flags": [],
+          "original_width": 735,
+          "original_height": 438
+        },
+        {
+          "x": 0.0,
+          "y": 15.410573678290213,
+          "width": 49.671036018456874,
+          "height": 66.40794923522742,
+          "id": "gp49sJ1hWw",
+          "flags": [],
+          "original_width": 735,
+          "original_height": 438
+        }
+      ],
+      "resolution_reason": "Принята разметка A по итогам просмотра.",
+      "resolved_by": [],
+      "resolved_at": null,
+      "codebook_version": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<View>
+  <Header value="ID кадра"/>
+  <Text name="sample_id_display" value="$sample_id"/>
+  <Image name="image" value="$image"/>
+  <RectangleLabels name="bbox" toName="image" canRotate="false">
+    <Label value="animal" background="#d9822b"/>
+  </RectangleLabels>
+  <Header value="Для выбранной рамки: отметьте признаки, только если они есть"/>
+  <Choices name="box_flags" toName="image" choice="multiple" perRegion="true" visibleWhen="region-selected">
+    <Choice value="occluded"/>
+    <Choice value="truncated"/>
+  </Choices>
+  <Header value="Обведите каждое животное отдельно. Затем выберите статус всего кадра"/>
+  <Choices name="frame_status" toName="image" choice="single-radio" required="true">
+    <Choice value="animal"/>
+    <Choice value="empty"/>
+    <Choice value="needs_review"/>
+    <Choice value="excluded"/>
+  </Choices>
+  <Header value="Меняли яркость или контраст только для просмотра?"/>
+  <Choices name="view_adjusted" toName="image" choice="single-radio" required="true">
+    <Choice value="no"/>
+    <Choice value="yes"/>
+  </Choices>
+  <Header value="Насколько вы уверены в ответе?"/>
+  <Choices name="confidence" toName="image" choice="single-radio" required="true">
+    <Choice value="high"/>
+    <Choice value="medium"/>
+    <Choice value="low"/>
+  </Choices>
+  <Header value="Активное время в секундах: только если измеряли; иначе оставьте пустым"/>
+  <Number name="active_seconds" toName="image" min="0" step="1"/>
+  <TextArea name="comment" toName="image" editable="true" rows="2" maxSubmissions="1" placeholder="Обязательно поясните спорный кадр, исключение или низкую уверенность"/>
+</View>

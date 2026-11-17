@@ -13,7 +13,7 @@ The A files use the full JSON export format from Label Studio. Text A is unchang
 
 Each A task contains one saved, non-cancelled annotation. A task data and `data.sample_id` values match the corresponding 200-text and 140-image annotation inputs.
 
-Compare annotators by `data.sample_id`, not Label Studio's internal task IDs. Store adjudicated labels separately. Both annotators' exports are available; agreement has not yet been calculated. Independent annotation should use the neutral task inputs without consulting the other annotator's answers.
+Compare annotators by `data.sample_id`, not Label Studio's internal task IDs. Store adjudicated labels separately. Both annotators' exports have been compared in notebooks/02_collection_and_annotation.ipynb. The 23 recorded decisions are in artifacts/annotation_comparison/adjudication_template.json, and the finalized collection is in data/real/final/. Independent annotation should use the neutral task inputs without consulting the other annotator's answers.
 
 Some image interpretation and annotation questions were discussed with an AI assistant during annotation. The image export is not claimed to be entirely unaided annotation.
 
